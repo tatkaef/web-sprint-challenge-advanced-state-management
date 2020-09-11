@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import SmurfCard from "./SmurfCard";
 
 function SmurfContainer(props) {
-  console.log("SmurfCont-r:", props);
+  const { smurfs } = props;
 
   return (
     <>
